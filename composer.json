@@ -1,0 +1,12 @@
+{
+  "name": "messagebus",
+  "description": "messagebus poc",
+  "require": {
+    "aws/aws-sdk-php": "2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "messagebus\\": "src/"
+    }
+  }
+}
