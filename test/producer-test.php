@@ -11,7 +11,7 @@ $data = [
     'text' => 'Here goes the text - '.rand(1,1000)
 ];
 
-$producer = new Producer('poc');
+$producer = new Producer('rdkinesis');
 print_r($producer->publish($data, 'user_id'));
 print_r($data);
 ?>
